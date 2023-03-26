@@ -8,9 +8,9 @@ from keras.initializers import glorot_uniform
 from keras.layers import LeakyReLU
 
 np.random.seed(12)
-from tensorflow import set_random_seed
+from tensorflow import random.set_seed
 
-set_random_seed(12)
+random.set_seed(12)
 
 
 class Models():
