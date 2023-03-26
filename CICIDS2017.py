@@ -9,7 +9,7 @@ random.seed(my_seed)
 
 import tensorflow
 
-tensorflow.set_random_seed(my_seed)
+tensorflow.random.set_seed(my_seed)
 
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 from Preprocessing import Preprocessing as prep
