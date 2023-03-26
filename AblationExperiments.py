@@ -10,7 +10,7 @@ from sklearn.preprocessing import scale, MinMaxScaler
 import tensorflow
 import configparser
 
-tensorflow.set_random_seed(my_seed)
+tensorflow.random.set_seed(my_seed)
 
 import pandas as pd  # data processing, CSV file I/O (e.g. pd.read_csv)
 
