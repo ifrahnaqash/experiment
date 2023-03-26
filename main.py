@@ -5,7 +5,7 @@ import numpy as np
 
 np.random.seed(12)
 import tensorflow
-tensorflow.set_random_seed(12)
+tensorflow.random.set_seed(12)
 from CICIDS2017 import RunCNN1DCICIDS
 from CNN1D import RunCNN1D
 
